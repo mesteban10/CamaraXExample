@@ -17,13 +17,14 @@
             app:exitAnim="@animator/nav_default_exit_anim"
             app:popEnterAnim="@animator/nav_default_pop_enter_anim"
             app:popExitAnim="@animator/nav_default_pop_exit_anim"
-            app:popUpToInclusive="true"></action>
+            app:popUpToInclusive="true" />
 
     </fragment>
 
     <fragment
         android:id="@+id/camera_fragment"
         android:name="com.mesteban.camaraxexample.presentation.camera.Camera"
-        tools:layout="@layout/fragment_camera"></fragment>
+        tools:layout="@layout/fragment_camera">
+    </fragment>
 
 </navigation>
