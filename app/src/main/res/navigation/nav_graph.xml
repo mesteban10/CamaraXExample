@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/fragment_bottom">
+    app:startDestination="@id/fragment_buttom">
 
     <fragment
-        android:id="@+id/fragment_bottom"
-        android:name="com.mesteban.camaraxexample.presentation.button.ButtomFragment"
-        tools:layout="@layout/fragment_buttom">
+        android:id="@+id/fragment_buttom"
+        android:name="com.mesteban.camaraxexample.presentation.button.ButtonFragment"
+        tools:layout="@layout/fragment_button">
 
         <action
             android:id="@+id/goToCamera"
