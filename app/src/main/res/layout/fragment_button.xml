@@ -9,7 +9,6 @@
         android:id="@+id/action_camera"
         style="@style/ButtonStyle"
         android:layout_height="wrap_content"
-        android:maxLines="2"
         android:text="@string/label_action_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
